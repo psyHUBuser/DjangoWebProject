@@ -1,0 +1,20 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    Фирма "Книжник"<br />
+    Псков, ул. Уличная, 10<br />
+    <abbr title="Телефон">Т:</abbr>
+    8-800-555-35-35
+</address>
+
+<address>
+    <strong>Тех. поддержка:</strong>   <a href="mailto:Support@knijnik.ru">Support@knijnik.ru</a><br />
+    <strong>Отдел маркетинга:</strong> <a href="mailto:Marketing@knijnik.ru">Marketing@knijnik.ru</a>
+</address>
+
+{% endblock %}

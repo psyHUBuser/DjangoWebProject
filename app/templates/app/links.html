@@ -1,0 +1,14 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load staticfiles %}
+
+<span>Магазин электронных книг</span><br /><br />
+<a href="http://www.litres.ru" target="_blank"><img src="{% static 'app/content/litres logo.png' %}" alt="Litres logo" /></a><br />
+<span>Псковская областная универсальная научная библиотека</span><br /><br />
+<a href="http://pskovlib.ru/" target="_blank"><img src="{% static 'app/content/pskovlib logo.png' %}" alt="Pskovlib logo" /></a><br />
+<span>Полезные ссылки</span><br /><br />
+<a href="http://chitajka53.ru/pedagogam-roditelyam/poleznyie-ssyilki/pro-knigi/" target="_blank"><img src="{% static 'app/content/usefullsite logo.jpg' %}" alt="UsefullSite logo" /></a>
+
+{% endblock %}
